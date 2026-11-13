@@ -1,0 +1,9 @@
+CREATE DATABASE IF NOT EXISTS pong_db;
+USE pong_db;
+CREATE TABLE IF NOT EXISTS matches (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    player1_score INT NOT NULL,
+    player2_score INT NOT NULL,
+    winner VARCHAR(10) NOT NULL,
+    played_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

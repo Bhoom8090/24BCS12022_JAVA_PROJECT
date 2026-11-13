@@ -49,3 +49,7 @@ ESC during a game = pause menu (Resume / Quit). Pick with W/S or Up/Down + ENTER
 After a match: ENTER = play again, ESC = main menu.
 Finished matches are saved through the backend. The History button reads them back.
 The game still runs without the backend, but nothing is saved or shown in History.
+
+HOW TO PLAY
+PLAYER 1 - W (FOR UP) S(FOR DOWN)
+PLAYER 2 - UP ARROW(FOR UP) DOWN ARROW(FOR DOWN)

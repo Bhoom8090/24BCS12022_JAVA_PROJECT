@@ -7,7 +7,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class ApiClient {
-    private static final String BASE_URL = "http://localhost:8080/api/matches";
+    private static final String BASE_URL = "http://localhost:8081/api/matches";
     private static final HttpClient CLIENT = HttpClient.newBuilder()
             .connectTimeout(Duration.ofSeconds(2))
             .build();

@@ -1,0 +1,4 @@
+# H2 local database files
+backend/data/
+*.mv.db
+*.trace.db
